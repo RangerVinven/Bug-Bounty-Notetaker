@@ -1,10 +1,13 @@
 import './App.css';
+
 import Sidebar from './components/Sidebar/Sidebar';
+import SubdomainsPage from './pages/SubdomainsPage/SubdomainsPage';
 
 const App = () => {
   return (
-    <div>
-        <Sidebar></Sidebar>
+    <div className="flex">
+      <Sidebar></Sidebar>        
+      <SubdomainsPage />
     </div>
   )
 }
