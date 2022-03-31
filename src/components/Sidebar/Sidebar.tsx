@@ -1,12 +1,12 @@
 import React from 'react';
-import Search from "./Search";
+import ShortSearch from "./ShortSearch";
 import { FcPlus } from "react-icons/fc";
 
 const Sidebar = () => {
     return(
         <div className="bg-purple-500 w-48 min-h-screen">
             <div className="flex mb-2">
-                <Search></Search>
+                <ShortSearch></ShortSearch>
                 <FcPlus size={30} className="ml-2"></FcPlus>
             </div>
 
