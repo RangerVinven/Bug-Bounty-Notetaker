@@ -10,16 +10,16 @@ const Sidebar = () => {
             </div>
 
             <ul className="ml-1">
-                <li>Department of Defense</li>
-                <li>Redbull</li>
-                <li>Facebook</li>
-                <li>Amazon</li>
-                <li>Apple</li>
-                <li>Netflix</li>
-                <li>Google</li>
+                <li className="mb-2">Department of Defense</li>
+                <li className="mb-2">Redbull</li>
+                <li className="mb-2">Facebook</li>
+                <li className="mb-2">Amazon</li>
+                <li className="mb-2">Apple</li>
+                <li className="mb-2">Netflix</li>
+                <li className="mb-2">Google</li>
             </ul>
 
-            <FcPlus size={30} className="mt-1 ml-1"></FcPlus>
+            <FcPlus size={30} className="ml-1"></FcPlus>
 
         </div>
     );
